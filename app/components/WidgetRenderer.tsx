@@ -5,6 +5,7 @@ import RadarrWidget from "./widgets/RadarrWidget";
 import QbittorrentWidget from "./widgets/QbittorrentWidget";
 import RancherWidget from "./widgets/RancherWidget";
 import OverseerrWidget from "./widgets/OverseerrWidget";
+import PortainerWidget from "./widgets/PortainerWidget";
 
 interface WidgetRendererProps {
   widget: any;
@@ -31,8 +32,10 @@ function getWidgetComponent(type: string) {
       return TautulliWidget;
     case "rancher":
       return RancherWidget;
-      case "overseerr":
+    case "overseerr":
       return OverseerrWidget;
+    case "portainer":
+      return PortainerWidget;
     default:
       return null;
   }

@@ -31,7 +31,7 @@ bookmarks:
   Bookmarks:
     - GitHub:
         icon: "si:github"
-        url: "https://github.com"
+        url: "https://github.com/danzkigg/yetanotherdashboard"
     
     - Docker Hub:
         icon: "si:docker"
