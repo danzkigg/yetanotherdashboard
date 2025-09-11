@@ -93,6 +93,14 @@ bookmarks:
 
 [See all the available integrations here.](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets)
 
+Don't see your favorite service? You can request new integrations:
+
+1. **Check existing integrations** - [View all supported widgets](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets)
+2. **Submit a request** - [Create an integration request issue](https://github.com/danzkigg/yetanotherdashboard/issues/new?assignees=&labels=enhancement%2Cintegration&template=integration_request.md&title=%5BINTEGRATION%5D+Service+Name)
+3. **Provide details** - Include API documentation, use cases, and desired data points
+
+Popular requests with good API documentation are prioritized for development.
+
 ## Management
 
 ```bash
