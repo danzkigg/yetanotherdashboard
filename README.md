@@ -4,7 +4,7 @@
 
 A minimalistic and configurable dashboard for managing your services with real-time monitoring and widgets.
 
-<img width="2510" height="2396" alt="dashboard" src="https://github.com/user-attachments/assets/5652329e-20bb-4841-ab22-cb11fb2d0315" />
+<img width="2510" height="2396" alt="dashboard" src="https://github.com/user-attachments/assets/6b7a4e0a-2285-4129-819c-76ac16650ff3" />
 
 </div>
 
