@@ -22,7 +22,7 @@ A minimalistic and configurable dashboard for managing your services with real-t
 
 ## Quick Start
 
-Create a directory and docker-compose.yml file:
+Create a directory and ```docker-compose.yml``` file:
 
 ```yaml
 services:
