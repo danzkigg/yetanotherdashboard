@@ -13,10 +13,10 @@ To request a new service integration:
 ### Setup
 **Fork the repository** on GitHub
 
-**Clone fork** locally:
+**Clone your fork** locally:
 
    ```bash
-   git clone https://github.com/danzkigg/yetanotherdashboard.git
+   git clone https://github.com/YOUR-USER/yetanotherdashboard.git
    cd yetanotherdashboard
    ```
 
