@@ -128,4 +128,6 @@ npm run dev:backend
 4. Update documentation if needed
 5. Submit a pull request with clear description
 
-Thank you for contributing to YAD!
+---
+
+Thank you for contributing to YAD, you can PM me on discord to get a "Contributor" role on our server!
