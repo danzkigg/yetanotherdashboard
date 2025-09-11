@@ -92,7 +92,7 @@ bookmarks:
 - **qBittorrent** - Torrent client
 - **Rancher** - Container management
 
-See all the available integrations here.
+[See all the available integrations here.](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets)
 
 ## Management
 
