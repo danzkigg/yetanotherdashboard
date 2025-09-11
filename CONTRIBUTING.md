@@ -92,13 +92,39 @@ export default function ServiceNameWidget({ config, service }) {
   if (error) return <div className="error">Error: {error}</div>;
   if (!data) return <div>Loading...</div>;
 
-  return (
-    <div className="widget">
-      {/* Your widget UI here */}
-      <h3>{service.name}</h3>
-      <p>{data.status}</p>
+  return return (
+    <div className="grid grid-cols-3 gap-3 w-full">
+      {/* Box 1 */}
+      <div className="bg-tierciarylight dark:bg-darkBg p-4 rounded-lg flex flex-col items-center justify-center text-center">
+        <div className="text-sm font-bold text-main dark:text-mainDark mb-1">
+          {data.<YOURDATAHERE>}
+        </div>
+        <div className="text-xs text-secondary dark:text-secondaryDark">
+          Info
+        </div>
+      </div>
+
+      {/* Box 2 */}
+      <div className="bg-tierciarylight dark:bg-darkBg p-4 rounded-lg flex flex-col items-center justify-center text-center">
+        <div className="text-sm font-bold text-main dark:text-mainDark mb-1">
+          {data.<YOURDATAHERE>}
+        </div>
+        <div className="text-xs text-secondary dark:text-secondaryDark">
+          Info
+        </div>
+      </div>
+
+      {/* Box 3 */}
+      <div className="bg-tierciarylight dark:bg-darkBg p-4 rounded-lg flex flex-col items-center justify-center text-center">
+        <div className="text-sm font-bold text-main dark:text-mainDark mb-1">
+          {data.<YOURDATAHERE>}
+        </div>
+        <div className="text-xs text-secondary dark:text-secondaryDark">
+          Info
+        </div>
+      </div>
     </div>
-  );
+   );
 }
 ```
 
