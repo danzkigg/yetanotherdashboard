@@ -10,6 +10,23 @@ To request a new service integration:
 
 ## Developing Integrations
 
+### Setup
+1. **Fork the repository** on GitHub
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/danzkigg/yetanotherdashboard.git
+   cd yetanotherdashboard
+   ```
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+4. **Create a feature branch** from `dev`:
+   ```bash
+   git checkout dev
+   git checkout -b integration/service-name
+   ```
+
 ### Quick Start
 Use the integration generator to create a new integration:
 
