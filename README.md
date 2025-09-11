@@ -91,6 +91,7 @@ bookmarks:
 - **Tautulli** - Plex analytics
 - **qBittorrent** - Torrent client
 - **Rancher** - Container management
+- And more...
 
 [See all the available integrations here.](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets)
 
