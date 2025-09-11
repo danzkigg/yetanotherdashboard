@@ -67,7 +67,7 @@ export default function VersionChecker() {
       </span>
       {versionInfo.hasUpdate && versionInfo.latest && (
         <span className="text-xs bg-accent text-main px-2 py-1 rounded-full">
-          <a href={`https://github.com/danzkigg/yad/releases/tag/${versionInfo.latest}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/danzkigg/yetanotherdashboard/releases/tag/${versionInfo.latest}`} target="_blank" rel="noopener noreferrer">
           <WarningIcon className="w-4 h-4 inline-block ml-1 text-yellow-400" /> {versionInfo.latest} available
           </a>
         </span>
