@@ -33,9 +33,6 @@ services:
       - "3000:3000"   # WebUI
     volumes:
       - ./config:/app/config
-    environment:
-      - NODE_ENV=production
-      - NEXT_TELEMETRY_DISABLED=1
     restart: unless-stopped
 
 networks:
