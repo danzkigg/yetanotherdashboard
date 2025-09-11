@@ -1,0 +1,38 @@
+# config.yml.example - Default configuration for YAD
+settings:
+  - Dashboard:
+      name: "YAD - Yet Another Dashboard"
+      width: "narrow"
+      health-check: true
+
+layout:
+  - "Services":
+      style: "grid"
+      columns: 2
+      groups: ["Services"]
+  
+  - "Bookmarks":
+      style: "row"
+      columns: 1
+      groups: ["Bookmarks"]
+
+services:
+  Services:
+    - Example Service:
+        icon: "si:docker"
+        url: "http://192.168.1.10:8080"
+        description: "Replace with your service"
+        # widgets:
+        #   - type: "sonarr"
+        #     url: "http://192.168.1.10:8989"
+        #     key: "your-api-key"
+
+bookmarks:
+  Bookmarks:
+    - GitHub:
+        icon: "si:github"
+        url: "https://github.com"
+    
+    - Docker Hub:
+        icon: "si:docker"
+        url: "https://hub.docker.com"
