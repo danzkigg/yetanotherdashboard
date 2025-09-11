@@ -61,7 +61,7 @@ class ServiceIntegration extends BaseIntegration {
 ```
 
 ### Creating the Widget Component
-After implementing the integration, you must create the corresponding React widget component:
+After implementing the integration, you must create the corresponding widget component:
 
 1. Create `/components/widgets/ServiceNameWidget.js`:
 
