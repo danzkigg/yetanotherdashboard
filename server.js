@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs').promises;
@@ -17,7 +16,6 @@ const integrations = new Map();
 function findServiceInConfig(serviceName, configData) {
   if (!configData || !configData.services) return null;
 
-  // New hierarchical structure: services are grouped under keys
   for (const groupName in configData.services) {
     const servicesInGroup = configData.services[groupName] || [];
     const service = servicesInGroup.find(s => serviceName in s);
@@ -135,7 +133,7 @@ app.get('/api/widget/:integrationType/:serviceName', async (req, res) => {
       });
     }
 
-    // Find service in config using new structure
+    // Find service in config
     if (!configData || !configData.services) {
       return res.status(404).json({ error: 'No services configured' });
     }
@@ -243,7 +241,7 @@ app.get('/api/version', async (req, res) => {
   }
 });
 
-// Helper function to compare versions (same as before)
+// Helper function to compare versions
 function compareVersions(current, latest) {
   const currentParts = current.replace('v', '').split('.').map(Number);
   const latestParts = latest.replace('v', '').split('.').map(Number);
@@ -282,7 +280,6 @@ app.post('/api/health-check', async (req, res) => {
       httpsAgent: new https.Agent({
         rejectUnauthorized: false
       }),
-      // Add some common headers to avoid being blocked
       headers: {
         'User-Agent': 'Mozilla/5.0 (compatible; YAD-Dashboard/1.0)'
       }
