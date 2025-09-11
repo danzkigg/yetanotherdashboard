@@ -14,7 +14,7 @@ A minimalistic and configurable dashboard for managing your services with real-t
 - **Real-time service monitoring** - Health checks with status indicators  
 - **Live data widgets** - Integration with Sonarr, Radarr, Tautulli, qBittorrent, Rancher, etc...
 - **Flexible layouts** - Grid and multi-column support
-- **Easy YAML configuration** - Simple setup and customization
+- **Easy YAML configuration** - Simple setup and customization with auto-reload
 - **Docker ready** - One-command deployment
 - **Config auto-reload** - Automatic reload on config changes
 
