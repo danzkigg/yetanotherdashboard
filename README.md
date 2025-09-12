@@ -6,7 +6,7 @@ A minimalistic and configurable dashboard for managing your services with real-t
 
 ⚙️ [Wiki for configuration](https://github.com/danzkigg/yetanotherdashboard/wiki) | 💬 [Discord](https://discord.gg/MEPw6fHCvG)
 
-<img width="800" height="926" alt="dashboard" src="https://github.com/user-attachments/assets/60cd0c55-eba3-4d4d-8a6c-bbeb43f3d289" />
+<img width="804" height="989" alt="dashboard" src="https://github.com/user-attachments/assets/181d0ed0-a104-41aa-907f-8527f90c1e3c" />
 
 </div>
 
