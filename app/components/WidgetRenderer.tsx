@@ -6,6 +6,7 @@ import QbittorrentWidget from "./widgets/QbittorrentWidget";
 import RancherWidget from "./widgets/RancherWidget";
 import OverseerrWidget from "./widgets/OverseerrWidget";
 import PortainerWidget from "./widgets/PortainerWidget";
+import ProxmoxWidget from "./widgets/ProxmoxWidget";
 
 interface WidgetRendererProps {
   widget: any;
@@ -36,6 +37,8 @@ function getWidgetComponent(type: string) {
       return OverseerrWidget;
     case "portainer":
       return PortainerWidget;
+    case "proxmox":
+      return ProxmoxWidget
     default:
       return null;
   }
