@@ -25,10 +25,10 @@ services:
         widgets:
            - type: "pulse"
              url: "http://192.168.1.9:7655"
-             # apiToken: "c05b45ff2c4f258a6b69bab3f49d986a9d5f8b2da89b781f242d63858d8e9dab"
+             apiToken: "APIKEY"
              # Alternative: username/password auth
-             username: "admin"
-             password: "lolada22."
+             # username: "username"
+             # password: "password"
           
             # Optional settings
              skipTLSVerify: false
