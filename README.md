@@ -90,7 +90,7 @@ bookmarks:
 - **Rancher** - Container management
 - And more...
 
-[See all the available integrations here.](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets)
+[See all the available integrations here.](https://github.com/danzkigg/yetanotherdashboard/wiki/Widgets#supported-services)
 
 Don't see your favorite service? You can request new integrations:
 
