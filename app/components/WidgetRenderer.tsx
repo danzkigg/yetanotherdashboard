@@ -7,6 +7,7 @@ import RancherWidget from "./widgets/RancherWidget";
 import OverseerrWidget from "./widgets/OverseerrWidget";
 import PortainerWidget from "./widgets/PortainerWidget";
 import ProxmoxWidget from "./widgets/ProxmoxWidget";
+import PulseWidget from "./widgets/PulseWidget";
 
 interface WidgetRendererProps {
   widget: any;
@@ -38,7 +39,9 @@ function getWidgetComponent(type: string) {
     case "portainer":
       return PortainerWidget;
     case "proxmox":
-      return ProxmoxWidget
+      return ProxmoxWidget;
+    case "pulse":
+      return PulseWidget;  
     default:
       return null;
   }

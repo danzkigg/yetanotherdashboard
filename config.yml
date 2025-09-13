@@ -7,7 +7,7 @@ settings:
 
 layout:
   - "Services":
-      style: "grid"
+      style: "row"
       columns: 2
       groups: ["Services"]
   
@@ -18,14 +18,27 @@ layout:
 
 services:
   Services:
-    - Example Service:
-        icon: "si:docker"
-        url: "http://192.168.1.10:8080"
-        description: "Replace with your service"
-        # widgets:
-        #   - type: "sonarr"
-        #     url: "http://192.168.1.10:8989"
-        #     key: "your-api-key"
+    - Pulse:
+        icon: "di:pulse"
+        url: "http://192.168.1.9:7655"
+        description: "Proxmox Monitoring"
+        widgets:
+           - type: "pulse"
+             url: "http://192.168.1.9:7655"
+             # apiToken: "c05b45ff2c4f258a6b69bab3f49d986a9d5f8b2da89b781f242d63858d8e9dab"
+             # Alternative: username/password auth
+             username: "admin"
+             password: "lolada22."
+          
+            # Optional settings
+             skipTLSVerify: false
+             refreshInterval: 15000  # 15 seconds
+             # Display options
+             status: "all"           # all, running, stopped
+             vm: true               # Show VMs
+             lxc: true              # Show LXC containers
+             showNodes: true        # Show node information
+             showMetrics: true      # Show cluster metrics
 
 bookmarks:
   Bookmarks:
