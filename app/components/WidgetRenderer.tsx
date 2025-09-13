@@ -7,6 +7,7 @@ import RancherWidget from "./widgets/RancherWidget";
 import OverseerrWidget from "./widgets/OverseerrWidget";
 import PortainerWidget from "./widgets/PortainerWidget";
 import ProxmoxWidget from "./widgets/ProxmoxWidget";
+import TailscaleWidget from "./widgets/TailscaleWidget";
 
 interface WidgetRendererProps {
   widget: any;
@@ -39,6 +40,8 @@ function getWidgetComponent(type: string) {
       return PortainerWidget;
     case "proxmox":
       return ProxmoxWidget
+    case "tailscale":
+      return TailscaleWidget  
     default:
       return null;
   }
